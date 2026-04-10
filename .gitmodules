@@ -3,7 +3,7 @@
 	url = https://github.com/BeatTogether/BeatTogether.MasterServer
 [submodule "dependencies/BeatTogether.DedicatedServer"]
 	path = dependencies/BeatTogether.DedicatedServer
-	url = https://github.com/BeatTogether/BeatTogether.DedicatedServer
+	url = https://github.com/codecraft3r/BeatTogether.DedicatedServer.git
 [submodule "dependencies/BeatTogether.Status.Api"]
 	path = dependencies/BeatTogether.Status.Api
 	url = https://github.com/BeatTogether/BeatTogether.Status.Api
