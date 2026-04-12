@@ -18,7 +18,11 @@ namespace BeatTogether.UnifiedServer
         }
 
         public static IHostBuilder CreateUnifiedServer(string[] args) =>
-           Host.CreateDefaultBuilder(args).ConfigureAPIServices().UseStatusServer().UseDedicatedServerInstancing().UseMasterServerApi();
+           Host.CreateDefaultBuilder(args)
+               .ConfigureAPIServices()
+               .UseStatusServer()
+               .UseDedicatedServerInstancing()
+               .UseMasterServerApi();
 
         public static IHostBuilder ConfigureAPIServices(this IHostBuilder hostBuilder) =>
             hostBuilder.ConfigureServices(services => services.AddControllers()
