@@ -1,6 +1,6 @@
 [submodule "dependencies/BeatTogether.MasterServer"]
 	path = dependencies/BeatTogether.MasterServer
-	url = https://github.com/BeatTogether/BeatTogether.MasterServer
+	url = https://github.com/codecraft3r/BeatTogether.MasterServer
 [submodule "dependencies/BeatTogether.DedicatedServer"]
 	path = dependencies/BeatTogether.DedicatedServer
 	url = https://github.com/codecraft3r/BeatTogether.DedicatedServer.git
